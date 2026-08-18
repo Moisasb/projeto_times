@@ -1,0 +1,7 @@
+CREATE TABLE Times (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(150) NOT NULL,
+    origem VARCHAR(100) NOT NULL,
+    ano_fundacao INT NOT NULL,
+    ativo BOOLEAN NOT NULL DEFAULT TRUE
+);
